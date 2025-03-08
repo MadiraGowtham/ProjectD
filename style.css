@@ -176,13 +176,9 @@ h1::after {
 }
 
 .slide img, .slide video {
-  width: auto; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 75vh; /* Adjust height to control size */
-    object-fit: contain; /* Ensure the entire image fits */
-    aspect-ratio: 16 / 9; /* Enforce 16:9 aspect ratio */
-    display: block;
-    margin: auto; /* Ensures content fills the container while maintaining aspect ratio */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures content fills the container while maintaining aspect ratio */
 }
 
 .fade {
