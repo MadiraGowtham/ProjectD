@@ -404,9 +404,6 @@ h1::after {
   overflow-x: auto;
   padding: 10px 20px;
 }
-.scrollable-container:hover > :not(:hover){
-  opacity: 0.3;
-}
 /* Image Box Styling */
 .image-box {
   width: 48%; /* Two images per scroll */
