@@ -695,7 +695,39 @@ body {
 
 .footer {
   background-color: #751F1F;
-  text-align: center;
-  padding: 5px;
   color: #f2ebeb;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.highlight {
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.contact-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #FFD700;
+  text-align: left;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+.contact-list li {
+  margin: 8px 0;
+}
+.contact-list a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+.contact-list a:hover {
+  text-decoration: underline;
 }
